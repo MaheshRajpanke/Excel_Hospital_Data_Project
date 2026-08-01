@@ -35,7 +35,7 @@ The objective of this project is to transform raw Emergency Room (ER) data into 
 
 ### Patient Overview
 
-- Total patients handled: **493**
+- Total patients handled: **10,000+**
 - Average patient waiting time: **34.93 minutes**
 - Overall patient satisfaction score: **4.74 / 5**
 - Patient volume remained relatively stable throughout the reporting period.
