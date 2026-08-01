@@ -7,8 +7,8 @@ An interactive **Hospital Emergency Room Dashboard** built entirely in **Microso
 ## Dashboard Preview
 
 <p align="center">
-  <<img width="1938" height="811" alt="Dashboard" src="https://github.com/user-attachments/assets/4bdca269-f7be-49b2-9bd7-153df15b8f74" />
->
+  <img width="1938" height="811" alt="Dashboard" src="https://github.com/user-attachments/assets/4bdca269-f7be-49b2-9bd7-153df15b8f74" />
+
 </p>
 
 ## Dataset Used:
