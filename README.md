@@ -24,109 +24,84 @@ The objective of this project is to transform raw Emergency Room (ER) data into 
 
 # Executive Summary
 
-| KPI | Value |
-|------|-------:|
-| 👥 Total Patients | **493** |
-| ⏳ Average Wait Time | **34.93 Minutes** |
-| ⭐ Patient Satisfaction Score | **4.74 / 5** |
-| 🛏️ Admission Rate | **48%** |
-| ✅ Patients Attended On Time | **57%** |
+- Analyzed **10,000+ Emergency Room patient records** using Microsoft Excel.
+- Built an interactive dashboard with dynamic Month and Year slicers.
+- Tracked key performance indicators including patient volume, waiting time, admissions, referrals, and patient satisfaction.
+- Designed an easy-to-understand dashboard for quick operational monitoring.
 
 ---
 
 # Dashboard Analysis
 
-## Patient Demographics
+### Patient Overview
 
-- A total of **493 patients** visited the Emergency Room during the selected reporting period.
-- Patient distribution is nearly balanced:
-  - **Male:** 248 (50.3%)
-  - **Female:** 245 (49.7%)
-- The **40–49 years** age group recorded the highest number of ER visits (**71 patients**), indicating higher healthcare demand among middle-aged adults.
-
----
-
-## Operational Performance
-
-- The average patient waiting time is **34.93 minutes**.
-- **281 patients (57%)** were attended within the expected time.
-- **212 patients (43%)** experienced delays.
-
-### Key Insight
-
-Although most patients received timely treatment, reducing delayed cases could further improve operational efficiency and patient experience.
+- Total patients handled: **493**
+- Average patient waiting time: **34.93 minutes**
+- Overall patient satisfaction score: **4.74 / 5**
+- Patient volume remained relatively stable throughout the reporting period.
 
 ---
 
-## Admission Analysis
+### Gender Distribution
 
-| Admission Status | Patients | Percentage |
-|------------------|---------:|-----------:|
-| Admitted | 239 | 48% |
-| Not Admitted | 254 | 52% |
-
-### Key Insight
-
-More than half of the patients were treated without requiring hospital admission, indicating that many emergency cases were successfully managed within the Emergency Department.
+- Male and female patient counts are almost equally distributed.
+- Male patients slightly outnumber female patients, indicating balanced healthcare utilization across both genders.
 
 ---
 
-## Department Referral Analysis
+### Service Efficiency
 
-| Department | Patients |
-|------------|---------:|
-| None | 282 |
-| General Practice | 96 |
-| Orthopedics | 61 |
-| Physiotherapy | 15 |
-| Neurology | 11 |
-| Cardiology | 10 |
-| Renal | 9 |
-| Gastroenterology | 9 |
-
-### Key Insight
-
-- **57% of patients required no specialist referral**, demonstrating that the Emergency Department resolved most cases independently.
-- **General Practice** and **Orthopedics** received the highest number of referrals among specialist departments.
+- **57%** of patients were attended within the expected time.
+- **43%** experienced delays before receiving treatment.
+- Reducing delayed attendance could further improve operational efficiency and patient experience.
 
 ---
 
-## ⭐ Patient Satisfaction
+### Admission Analysis
 
-- The Emergency Room achieved an excellent **4.74/5 Patient Satisfaction Score**.
-
-### Key Insight
-
-High patient satisfaction, combined with moderate waiting times, reflects efficient emergency room operations and quality healthcare service.
+- **239 patients** were admitted.
+- **254 patients** were treated and discharged.
+- More than half of the emergency cases were managed without requiring hospital admission.
 
 ---
 
-# 💡 Business Insights
+### Department Referrals
 
-- Emergency services handled nearly **500 patients** efficiently during the reporting period.
-- Patient satisfaction remained exceptionally high despite a significant patient volume.
-- The majority of cases were resolved without specialist referrals.
-- Nearly half of the patients required hospital admission, highlighting the importance of efficient bed management.
-- Adults aged **40–49 years** represented the highest-demand patient group.
-- Improving patient attendance time has the potential to further enhance overall service quality.
+- Most patients did not require referrals to specialist departments.
+- Among referred patients, **General Practice** received the highest number of referrals.
+- **Orthopedics** was the second most common referral department.
+- Other referrals included Physiotherapy, Neurology, Cardiology, Renal, and Gastroenterology.
 
 ---
 
-# 📌 Dashboard Features
+### Age Group Analysis
 
-- Interactive Month & Year Slicers
-- Dynamic KPI Cards
-- Patient Demographics Analysis
-- Admission Status Monitoring
-- Department Referral Analysis
-- Patient Age Group Distribution
-- Waiting Time Analysis
-- Patient Satisfaction Tracking
-- Interactive Charts & Visualizations
+- The **40–49 years** age group recorded the highest number of patient visits.
+- Patients between **10–29 years** also contributed significantly to the overall patient volume.
+- Pediatric patients (0–9 years) represented the smallest patient group during the reporting period.
 
 ---
 
-# 🛠️ Tools & Technologies Used
+### ⭐Patient Satisfaction
+
+- The Emergency Room achieved an excellent satisfaction score of **4.74/5**.
+- High satisfaction suggests effective patient care despite handling a large number of emergency cases.
+
+---
+
+# 💡Key Business Insights
+
+- Emergency Room successfully managed nearly **500 patient visits**.
+- Waiting time remained below **35 minutes** on average.
+- Patient satisfaction remained consistently high.
+- More than half of the patients were discharged without admission.
+- Most emergency cases were resolved without specialist referrals.
+- Middle-aged adults represented the largest patient group.
+- Improving patient attendance time presents an opportunity to enhance overall service quality.
+
+---
+
+# 🛠️ Tools Used
 
 - Microsoft Excel
 - Pivot Tables
@@ -135,22 +110,28 @@ High patient satisfaction, combined with moderate waiting times, reflects effici
 - Conditional Formatting
 - Data Validation
 - Shapes & Icons
-- Excel Formulas
-  - `SUMIFS()`
-  - `COUNTIFS()`
-  - `AVERAGE()`
-  - `IF()`
-  - `TEXT()`
 
 ---
 
-# 💼 Skills Demonstrated
+# Excel Functions Used
+
+- COUNTIFS()
+- SUMIFS()
+- AVERAGE()
+- IF()
+- TEXT()
+- INDEX()
+- MATCH()
+
+---
+
+# Skills Demonstrated
 
 - Data Cleaning
 - Data Analysis
-- Dashboard Design
-- KPI Development
+- Dashboard Development
 - Data Visualization
+- KPI Reporting
 - Interactive Reporting
 - Healthcare Analytics
 - Business Intelligence
@@ -160,7 +141,6 @@ High patient satisfaction, combined with moderate waiting times, reflects effici
 
 # 🚀 Conclusion
 
-This project demonstrates how **Microsoft Excel** can be used to develop a professional Business Intelligence dashboard without specialized BI tools. By combining interactive visualizations, KPI tracking, and business-focused insights, the dashboard enables healthcare administrators to monitor Emergency Room performance, evaluate operational efficiency, and make informed decisions based on data.
+This project demonstrates how Microsoft Excel can be used to build an interactive business dashboard for healthcare analytics. By combining dynamic KPIs, visualizations, slicers, and business insights, the dashboard provides a clear overview of Emergency Room performance and supports data-driven operational decision-making.
 
 ---
-
